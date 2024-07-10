@@ -1,0 +1,36 @@
+@use 'variaveis';
+
+.infos-bar {
+    padding: 16px 24px;
+    background-color: variaveis.$corDoTexto;
+    display: flex;
+    justify-content: space-between;
+
+    &__infos {
+        display: flex;
+        gap: 40;
+
+        &__item {
+            font-size: 14px;
+            color: variaveis.$corDoTextoSecundaria;
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+
+        &__infos {
+            display: block;
+            
+            &__item {
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__infos {
+            gap: 16px;
+        }
+    }
+}

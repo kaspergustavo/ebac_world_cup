@@ -1,0 +1,11 @@
+@use 'hero';
+@use 'variaveis';
+@use 'infos';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: variaveis.$corDoTexto;
+    list-style: none;
+}
