@@ -1,3 +1,5 @@
+AOS.init();
+
 const dataDaCopa = new Date("Jun 11, 2026 12:00:00");
 const timeStampDaCopa = dataDaCopa.getTime();
 

@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Cup 2026</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -17,25 +20,91 @@
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
-                        <b>Estados Unidos</b>
+                        <a href="#eua" class="button button--eua">
+                            Estados Unidos
+                        </a>
                     </li>
                     <li class="infos-bar__infos__item">
-                        <b>México</b>
+                        <a href="#mex" class="button button--mex">
+                            México
+                        </a>
                     </li>
                     <li class="infos-bar__infos__item">
-                        <b>Cánada</b>
+                        <a href="#can" class="button button--can">
+                            Canadá
+                        </a>
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <a href="#" class="button button--primary">
+                            Saber Mais
+                        </a>
                     </li>
                 </ul>
-                <a href="#" class="button button--primary">
-                    Saber Mais
-                </a>
             </div>
         </div>
     </header>
-    <section>
-
+    <section class="event event--eua event--image-left" id="eua">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Estados Unidos</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptas itaque eos voluptates totam! Quam quisquam delectus pariatur ab nam vitae eveniet. Quaerat repudiandae eum sit, incidunt facilis consequuntur doloremque!
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum debitis porro ab aperiam consectetur voluptatem totam sit cupiditate, sint id in tenetur eveniet architecto hic. Quaerat laudantium a omnis totam.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum debitis porro ab aperiam consectetur voluptatem totam sit cupiditate, sint id in tenetur eveniet architecto hic. Quaerat laudantium a omnis totam.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus laboriosam sapiente quod est exercitationem explicabo sed ex fugiat, modi, harum minus! Perspiciatis tenetur ex debitis odio reprehenderit repellendus at?
+                </p>
+            </div>
+            <img class="event__image" src="images/section.webp" alt="Estados Unidos">
+        </div>
+    </section>
+    <section class="event event--mex" id="mex">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">México</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptas itaque eos voluptates totam! Quam quisquam delectus pariatur ab nam vitae eveniet. Quaerat repudiandae eum sit, incidunt facilis consequuntur doloremque!
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum debitis porro ab aperiam consectetur voluptatem totam sit cupiditate, sint id in tenetur eveniet architecto hic. Quaerat laudantium a omnis totam.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum debitis porro ab aperiam consectetur voluptatem totam sit cupiditate, sint id in tenetur eveniet architecto hic. Quaerat laudantium a omnis totam.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus laboriosam sapiente quod est exercitationem explicabo sed ex fugiat, modi, harum minus! Perspiciatis tenetur ex debitis odio reprehenderit repellendus at?
+                </p>
+            </div>
+            <img class="event__image" src="images/section.webp" alt="México">
+        </div>
+    </section>
+    <section class="event event--can event--image-left" id="can">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Canadá</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptas itaque eos voluptates totam! Quam quisquam delectus pariatur ab nam vitae eveniet. Quaerat repudiandae eum sit, incidunt facilis consequuntur doloremque!
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum debitis porro ab aperiam consectetur voluptatem totam sit cupiditate, sint id in tenetur eveniet architecto hic. Quaerat laudantium a omnis totam.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum debitis porro ab aperiam consectetur voluptatem totam sit cupiditate, sint id in tenetur eveniet architecto hic. Quaerat laudantium a omnis totam.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus laboriosam sapiente quod est exercitationem explicabo sed ex fugiat, modi, harum minus! Perspiciatis tenetur ex debitis odio reprehenderit repellendus at?
+                </p>
+            </div>
+            <img class="event__image" src="images/section.webp" alt="México">
+        </div>
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

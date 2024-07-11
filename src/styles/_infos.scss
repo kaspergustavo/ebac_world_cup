@@ -2,17 +2,19 @@
 
 .infos-bar {
     padding: 16px 24px;
-    background-color: variaveis.$corDoTexto;
     display: flex;
+    background-color: variaveis.$corDoTexto;
     justify-content: space-between;
+    border-radius: 25px;
 
     &__infos {
         display: flex;
-        gap: 40;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
 
         &__item {
-            font-size: 14px;
-            color: variaveis.$corDoTextoSecundaria;
+            display: flex;
         }
     }
 

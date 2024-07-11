@@ -1,0 +1,52 @@
+@use 'variaveis';
+
+.button {
+    background-color: variaveis.$corDoTextoSecundaria;
+    color: variaveis.$corDoTexto;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 0 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &--eua:hover {
+        background-color: variaveis.$corEua;
+        color: variaveis.$corDoTexto;
+    }
+
+    &--mex:hover {
+        background-color: variaveis.$corMex;
+        color: variaveis.$corDoTexto;
+        
+    }
+
+    &--can:hover {
+        background-color: variaveis.$corCan;
+        color: variaveis.$corDoTexto;
+    }
+
+    &--primary:hover {
+        background-color: variaveis.$corSB;
+        color: variaveis.$corDoTexto;
+    }
+
+    @media (max-width: 640px) {
+        width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 1024px) {
+        width: 100%;
+        height: auto;
+    }
+}
