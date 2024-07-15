@@ -30,7 +30,7 @@ const contaAsHoras = setInterval(function() {
         mesesAteACopa--;
     }
 
-    document.getElementById('contador').innerHTML = `${anosAteACopa} anos ${mesesAteACopa} meses ${diasAteACopa % 30} dias ${horasAteACopa} horas ${minutosAteACopa} minutos ${segundosAteACopa} segundos`;
+    document.getElementById('contador').innerHTML = `${anosAteACopa} ano ${mesesAteACopa} meses ${diasAteACopa % 30} dias ${horasAteACopa} horas ${minutosAteACopa} minutos ${segundosAteACopa} segundos`;
 
     if (tempoAteACopa < 0) {
         clearInterval(contaAsHoras);

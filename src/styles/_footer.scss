@@ -1,0 +1,29 @@
+@use 'variaveis';
+
+.footer {
+
+    &--background {
+        background-image: linear-gradient(variaveis.$red, variaveis.$corDoTextoSecundaria);
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        
+    }
+
+    &__text {
+        color: variaveis.$corDoTexto;
+        font-weight: bold;
+        
+        a { 
+            text-decoration: none;
+
+            &:hover {
+                color: variaveis.$green;
+            }
+        }
+    }
+}
